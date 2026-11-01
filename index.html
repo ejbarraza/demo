@@ -164,6 +164,8 @@
     h1 em { color: var(--blue-deep); font-style: normal; }
     .lead { color: var(--ink-soft); font-size: clamp(18px, 2.2vw, 22px); max-width: 630px; margin: 24px 0 28px; }
     .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+    .voiceover { margin-top: 22px; color: var(--ink-soft); font-size: 15px; }
+    .voiceover audio { display: block; margin-top: 8px; width: 100%; max-width: 360px; }
     .quick-proof {
       margin-top: 30px;
       display: flex;
@@ -591,6 +593,12 @@
           <div class="actions">
             <a class="primary" href="tel:+19513542332">Call for an estimate</a>
             <a class="secondary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Jim%27s%20Auto%20Repair%2C%209764%20Magnolia%20Ave%2C%20Riverside%2C%20CA%2092503&amp;travelmode=driving" target="_blank" rel="noopener">Get directions</a>
+          </div>
+          <div class="voiceover">
+            <span>🎧 Hear it from the shop — 19 seconds</span>
+            <audio controls preload="none" src="voiceover.mp3">
+              <a href="voiceover.mp3">Listen to the shop introduction</a>
+            </audio>
           </div>
           <div class="quick-proof" aria-label="Shop highlights">
             <span><strong>Family owned</strong><br />Eddie &amp; Marty</span>
