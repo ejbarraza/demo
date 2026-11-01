@@ -18,6 +18,14 @@ pitch the shop, alongside a personalized outreach letter.
   9764 Magnolia Ave, Riverside, CA
 - **Mobile-first layout** — built for customers searching on their phones
 
+## Notes
+
+- Concept demo, not the shop's live site — business details reflect the shop's
+  public listings as of September 2026.
+- Part of a larger project: a reusable pipeline (prospecting via the Google
+  Places API → AI-generated site per shop → automated cold-email outreach).
+  Template and tooling live in separate repos.
+
 ## Viewing it
 
 - **Live site** (GitHub Pages): https://ejbarraza.github.io/jims-auto-repair-demo
@@ -29,11 +37,3 @@ cd jims-auto-repair-demo
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
-
-## Notes
-
-- Concept demo, not the shop's live site — business details reflect the shop's
-  public listings as of September 2026.
-- Part of a larger project: a reusable pipeline (prospecting via the Google
-  Places API → AI-generated site per shop → automated cold-email outreach).
-  Template and tooling live in separate repos.
