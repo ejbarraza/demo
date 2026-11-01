@@ -28,12 +28,12 @@ pitch the shop, alongside a personalized outreach letter.
 
 ## Viewing it
 
-- **Live site** (GitHub Pages): https://ejbarraza.github.io/jims-auto-repair-demo
+- **Live site** (GitHub Pages): https://ejbarraza.github.io/demo
 
 Open `index.html` directly, or serve the folder:
 
 ```bash
-cd jims-auto-repair-demo
+cd demo
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
